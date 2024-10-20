@@ -35,10 +35,10 @@ as well.
 
 ## Install these dotfiles and all dependencies
 
-Use [LARBS](https://larbs.xyz) to autoinstall everything:
+Use [archinstal]([https://larbs.xyz](https://github.com/BenDWit/archinstall)) to autoinstall everything:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+git clone https://github.com/BenDWit/archinstall
 ```
 
 or clone the repo files directly to your home directory and install the
