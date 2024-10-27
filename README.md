@@ -1,11 +1,10 @@
-# The Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
+# The Voidrice  (dotfiles)
 
-These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
-[my YouTube channel](https://youtube.com/c/lukesmithxyz).
+These are the dotfiles deployed by [LARBS](https://larbs.xyz).
 
 - Very useful scripts are in `~/.local/bin/`
 - Settings for:
-	- vim/nvim (text editor)
+	- lazyvim (text editor)
 	- zsh (shell)
 	- lf (file manager)
 	- mpd/ncmpcpp (music)
