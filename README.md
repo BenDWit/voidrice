@@ -1,6 +1,10 @@
 # The Voidrice  (dotfiles)
 
 These are the dotfiles deployed by [LARBS](https://larbs.xyz).
+
+![image](https://github.com/user-attachments/assets/6a3eb427-d956-424f-a713-e31b77b5b32f)
+
+
 ![image](https://github.com/user-attachments/assets/712c4156-615e-46af-a6f0-104ba71b581e)
 
 - Very useful scripts are in `~/.local/bin/`
