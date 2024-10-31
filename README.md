@@ -2,6 +2,7 @@
 
 These are the dotfiles deployed by [LARBS](https://larbs.xyz).
 
+![image](https://github.com/user-attachments/assets/03fb2cdd-bd1b-45f9-b9c3-e3d8ff488596)
 
 
 ![image](https://github.com/user-attachments/assets/712c4156-615e-46af-a6f0-104ba71b581e)
