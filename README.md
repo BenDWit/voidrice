@@ -5,6 +5,7 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz).
 
 - Very useful scripts are in `~/.local/bin/`
 - Settings for:
+	- alacritty (terminal) 
 	- gruvbox themes for gtk and Kvantum 
 	- lazyvim (text editor)
 	- zsh (shell)
@@ -24,17 +25,17 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz).
 
 These dotfiles are intended to go with numerous suckless programs I use:
 
-- [dwm](https://github.com/lukesmithxyz/dwm) (window manager)
-- [dwmblocks](https://github.com/lukesmithxyz/dwmblocks) (statusbar)
+- [dwm](https://github.com/BenDWit/dwm) (window manager)
+- [dwmblocks](https://github.com/BenDWit/dwmblocks) (statusbar)
 
 ### Optional
-- [st](https://github.com/lukesmithxyz/st) (terminal emulator)
+- [st](https://github.com/bendwit/st) (terminal emulator)
 - [mutt-wizard](https://github.com/lukesmithxyz/mutt-wizard), easy-to-install terminal-based email
 client.
 
 ## Install these dotfiles and all dependencies
 
-Use [archinstal]([https://larbs.xyz](https://github.com/BenDWit/archinstall)) to autoinstall everything:
+Use [archinstal](https://github.com/BenDWit/archinstall) to autoinstall everything:
 
 ```
 git clone https://github.com/BenDWit/archinstall
