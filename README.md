@@ -1,7 +1,7 @@
 # The Voidrice  (dotfiles)
 
 These are the dotfiles deployed by [LARBS](https://larbs.xyz).
-![image](https://github.com/user-attachments/assets/60f3afac-04ae-4898-a986-f21df23cb8a8)
+
 
 
 ![image](https://github.com/user-attachments/assets/712c4156-615e-46af-a6f0-104ba71b581e)
