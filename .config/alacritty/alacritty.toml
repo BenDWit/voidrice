@@ -1,0 +1,56 @@
+# Colors (Gruvbox Material Medium Dark)
+
+# Default colors
+[colors.primary]
+background = '#282828'
+foreground = '#d4be98'
+
+# Normal colors
+[colors.normal]
+black   = '#3c3836'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
+
+# Bright colors (same as normal colors)
+[colors.bright]
+black   = '#3c3836'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
+[font]
+size = 9.0
+
+[font.bold]
+family = "monospace"
+style = "Bold"
+
+[font.bold_italic]
+family = "monospace"
+style = "Bold Italic"
+
+[font.italic]
+family = "monospace"
+style = "Italic"
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+
+[scrolling]
+history = 50000
+
+[window]
+opacity = 0.9
