@@ -6,7 +6,8 @@ secs=600 # Download a new doppler radar if one hasn't been downloaded in $secs s
 radarloc="${XDG_CACHE_HOME:-$HOME/.cache}/radar"
 doppler="${XDG_CACHE_HOME:-$HOME/.cache}/doppler.gif"
 
-pickloc() { chosen="$(echo "US: CONUS: Continental United States
+pickloc() { chosen="$(echo "EU: NL: The Netherlands
+
 US: Northeast
 US: Southeast
 US: PacNorthWest
