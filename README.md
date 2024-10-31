@@ -5,6 +5,7 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz).
 
 - Very useful scripts are in `~/.local/bin/`
 - Settings for:
+	- gruvbox themes for gtk and Kvantum 
 	- lazyvim (text editor)
 	- zsh (shell)
 	- lf (file manager)
