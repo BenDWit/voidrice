@@ -12,7 +12,7 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz).
 - Settings for:
 	- alacritty+kitty (terminal) 
 	- lazyvim (text editor)
-	- zsh (shell)
+	- zsh + pure (shell)
 	- lf (file manager)
 	- mpd/ncmpcpp (music)
 	- nsxiv (image/gif viewer)
