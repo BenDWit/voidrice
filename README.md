@@ -10,7 +10,7 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz).
 - Very useful scripts are in `~/.local/bin/`
 - theming for gtk and Kvantum 
 - Settings for:
-	- alacritty (terminal) 
+	- alacritty+kitty (terminal) 
 	- lazyvim (text editor)
 	- zsh (shell)
 	- lf (file manager)
