@@ -8,9 +8,9 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz).
 ![image](https://github.com/user-attachments/assets/712c4156-615e-46af-a6f0-104ba71b581e)
 
 - Very useful scripts are in `~/.local/bin/`
+- theming for gtk and Kvantum 
 - Settings for:
 	- alacritty (terminal) 
-	- gruvbox themes for gtk and Kvantum 
 	- lazyvim (text editor)
 	- zsh (shell)
 	- lf (file manager)
