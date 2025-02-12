@@ -10,8 +10,8 @@ unsetopt PROMPT_SP 2>/dev/null
 
 # Default programs:
 export EDITOR="nvim"
-export TERMINAL="kitty"
-export TERMINAL_PROG="kitty"
+export TERMINAL="alacritty"
+export TERMINAL_PROG="alacritty"
 export BROWSER="floorp"
 
 # Change the default crypto/weather monitor sites.

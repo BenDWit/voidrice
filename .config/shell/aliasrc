@@ -64,7 +64,15 @@ alias \
   xi="sudo xbps-install" \
   xr="sudo xbps-remove -R" \
   xq="xbps-query" \
-  z="zathura"
+  z="zathura" \
+  conect="nmtui" \
+  timesync="sudo ~/Documents/timesync.sh --use-tor" \
+  music="ncmpcpp" \
+  webdown="wget -mpEk" \
+  podcast="castero" \
+  profanity="torsocks -q profanity" \
+  tut="torsocks tut" \
+  newsboat="torscocks newsboat"
 
 alias \
   lf="lfub" \
