@@ -1,56 +1,42 @@
-# Colors (Gruvbox Material Medium Dark)
+[colors]
 
-# Default colors
-[colors.primary]
-background = '#282828'
-foreground = '#d4be98'
-
-# Normal colors
-[colors.normal]
-black   = '#3c3836'
-red     = '#ea6962'
-green   = '#a9b665'
-yellow  = '#d8a657'
-blue    = '#7daea3'
-magenta = '#d3869b'
-cyan    = '#89b482'
-white   = '#d4be98'
-
-# Bright colors (same as normal colors)
 [colors.bright]
-black   = '#3c3836'
-red     = '#ea6962'
-green   = '#a9b665'
-yellow  = '#d8a657'
-blue    = '#7daea3'
-magenta = '#d3869b'
-cyan    = '#89b482'
-white   = '#d4be98'
+black = "#5c5855"
+blue = "#01a0e4"
+cyan = "#b5e4f4"
+green = "#01a252"
+magenta = "#a16a94"
+red = "#db2d20"
+white = "#f7f7f7"
+yellow = "#fded02"
+
+[colors.cursor]
+cursor = "#a5a2a2"
+text = "#090300"
+
+[colors.normal]
+black = "#090300"
+blue = "#01a0e4"
+cyan = "#b5e4f4"
+green = "#01a252"
+magenta = "#a16a94"
+red = "#db2d20"
+white = "#a5a2a2"
+yellow = "#fded02"
+
+[colors.primary]
+background = "#0d0d0d"
+foreground = "#a5a2a2"
+
 [font]
-size = 9.0
-
-[font.bold]
-family = "monospace"
-style = "Bold"
-
-[font.bold_italic]
-family = "monospace"
-style = "Bold Italic"
-
-[font.italic]
-family = "monospace"
-style = "Italic"
+size = 12.0
 
 [font.normal]
-family = "monospace"
+family = "dina"
 style = "Regular"
 
-[[keyboard.bindings]]
-action = "ToggleFullscreen"
-key = "F11"
+[terminal]
 
-[scrolling]
-history = 50000
+[terminal.shell]
+program = "/bin/zsh"
 
-[window]
-opacity = 0.9

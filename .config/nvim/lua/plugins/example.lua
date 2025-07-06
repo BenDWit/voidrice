@@ -9,6 +9,8 @@ if true then return {} end
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
+  { "nyoom-engineering/oxocarbon.nvim" },
+
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
 
@@ -16,7 +18,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "oxocarbon",
     },
   },
 

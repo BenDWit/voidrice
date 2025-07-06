@@ -1,4 +1,4 @@
-#files: 1009	version: 5.9
+#files: 1014	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -697,7 +697,7 @@ _comps=(
 'infocmp' '_terminals'
 'initctl' '_initctl'
 'initdb' '_pgsql_utils'
-'insmod' '_modutils'
+'insmod' '_insmod'
 'install' '_install'
 'install-info' '_texinfo'
 'integer' '_typeset'
@@ -735,6 +735,7 @@ _comps=(
 'jmeter-plugins' '_jmeter-plugins'
 'jobs' '_jobs_builtin'
 'joe' '_joe'
+'john' '_john'
 'join' '_join'
 'jonas' '_jonas'
 'journalctl' '_journalctl'
@@ -743,6 +744,7 @@ _comps=(
 'kak' '_kak'
 'kdeconnect-cli' '_kdeconnect'
 'kernel-install' '_kernel-install'
+'keyring' '_keyring'
 'keystone' '_openstack'
 'keytool' '_java'
 'kfmclient' '_kfmclient'
@@ -812,7 +814,7 @@ _comps=(
 'lsblk' '_lsblk'
 'lsdiff' '_patchutils'
 'lsinitcpio' '_mkinitcpio'
-'lsmod' '_modutils'
+'lsmod' '_lsmod'
 'lsns' '_lsns'
 'lsof' '_lsof'
 'lsusb' '_lsusb'
@@ -1241,7 +1243,7 @@ _comps=(
 'rmlint' '_rmlint'
 'rmlint.sh' '_rmlint'
 'rmm' '_mh'
-'rmmod' '_modutils'
+'rmmod' '_rmmod'
 'route' '_route'
 'rrdtool' '_rrdtool'
 'rsh' '_rlogin'
@@ -1913,24 +1915,25 @@ autoload -Uz _afew _alacritty _android _arch-chroot _archlinux-java \
             _glances _golang _google _gpgconf _grpcurl \
             _gtk-launch _hello _hledger _homestead _hostnamectl \
             _httpie _hub _hugo _ibus _img2sixel \
-            _include-what-you-use _inxi _jmeter _jmeter-plugins _jonas \
-            _journalctl _jrnl _kak _kernel-install _kitchen \
-            _knife _language_codes _lf _libinput _lilypond \
-            _localectl _loginctl _luarocks _luarocks-admin _lunchy \
-            _machinectl _mc _meson _middleman _mina \
-            _mix _mkcert _mkinitcpio _mpv _mssh \
-            _mullvad _mussh _mvn _nano _nanoc \
-            _neofetch _networkctl _networkQuality _nftables _ninja \
-            _node _nvm _nvme _oomctl _openssl \
-            _openvpn3 _optirun _paccache _pacdiff _pacignore \
-            _paclist _paclog-pkglist _pacman _pacscripts _pacsearch \
-            _pacsort _pacstrap _pactree _parallel _paru \
-            _patool _periscope _pgsql_utils _phing _pip \
-            _pixz _pkcon _pkgfile _play _playerctl \
-            _pm2 _polybar _polybar_msg _port _protoc \
-            _pulseaudio _pygmentize _qmk _rails _ralio \
-            _rankmirrors _redis-cli _resolvectl _rfkill _rg \
-            _rkt _rmlint _rslsync _rspec _rsvm \
+            _include-what-you-use _insmod _inxi _jmeter _jmeter-plugins \
+            _john _jonas _journalctl _jrnl _kak \
+            _kernel-install _keyring _kitchen _knife _language_codes \
+            _lf _libinput _lilypond _localectl _loginctl \
+            _lsmod _luarocks _luarocks-admin _lunchy _machinectl \
+            _mc _meson _middleman _mina _mix \
+            _mkcert _mkinitcpio _mpv _mssh _mullvad \
+            _mussh _mvn _nano _nanoc _neofetch \
+            _networkctl _networkQuality _nftables _ninja _node \
+            _nvm _nvme _oomctl _openssl _openvpn3 \
+            _optirun _paccache _pacdiff _pacignore _paclist \
+            _paclog-pkglist _pacman _pacscripts _pacsearch _pacsort \
+            _pacstrap _pactree _parallel _paru _patool \
+            _periscope _pgsql_utils _phing _pip _pixz \
+            _pkcon _pkgfile _play _playerctl _pm2 \
+            _polybar _polybar_msg _port _protoc _pulseaudio \
+            _pygmentize _qmk _rails _ralio _rankmirrors \
+            _redis-cli _resolvectl _rfkill _rg _rkt \
+            _rmlint _rmmod _rslsync _rspec _rsvm \
             _rubocop _run0 _sbt _scala _screencapture \
             _scrub _sdd _sd_hosts_or_user_at_host _sdkmanager _sd_machines \
             _sd_outputmodes _sd_unit_files _setcap _setup.py _sfdx \
